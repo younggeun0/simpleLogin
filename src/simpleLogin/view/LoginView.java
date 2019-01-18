@@ -19,6 +19,7 @@ public class LoginView extends JFrame {
 	private JLabel jlForgotPass;
 	
 	public LoginView() {
+		super("Login");
 
 		JLabel jlLogin = new JLabel("Simple Login");
 		jlLogin.setFont(new Font(Font.DIALOG, Font.BOLD, 20));
