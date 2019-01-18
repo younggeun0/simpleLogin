@@ -58,7 +58,7 @@ CREATE TABLE simple_login(
 
 ## Class Diagram
 
-![07](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/07.png?raw=true)
+![07](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/07.jpg?raw=true)
 
 ## 구현 화면
 
