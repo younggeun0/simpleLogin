@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 
 import simpleLogin.controller.LoginController;
 
+@SuppressWarnings("serial")
 public class LoginView extends JFrame {
 
 	private JTextField jtfId;

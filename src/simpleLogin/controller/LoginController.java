@@ -1,5 +1,7 @@
 package simpleLogin.controller;
 
+import static javax.swing.JOptionPane.showMessageDialog;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -8,11 +10,9 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.sql.SQLException;
 
-import static javax.swing.JOptionPane.showMessageDialog;
-import javax.swing.JOptionPane;
-
 import simpleLogin.dao.LoginDAO;
 import simpleLogin.view.LoginView;
+import simpleLogin.view.SignUpView;
 import simpleLogin.view.UserView;
 import simpleLogin.vo.LoginVO;
 
@@ -62,7 +62,7 @@ public class LoginController extends WindowAdapter implements ActionListener, Mo
 			}
 		}
 		if (ae.getSource() == lv.getJbSignUp()) {
-			
+			new SignUpView();
 		}
 	}
 	
