@@ -11,6 +11,7 @@ import java.awt.event.WindowEvent;
 import java.sql.SQLException;
 
 import simpleLogin.dao.LoginDAO;
+import simpleLogin.view.FindPasswordView;
 import simpleLogin.view.LoginView;
 import simpleLogin.view.SignUpView;
 import simpleLogin.view.UserView;
@@ -62,7 +63,7 @@ public class LoginController extends WindowAdapter implements ActionListener, Mo
 			}
 		}
 		if (ae.getSource() == lv.getJbSignUp()) {
-			new SignUpView();
+			new SignUpView(lv);
 		}
 	}
 	
@@ -79,7 +80,7 @@ public class LoginController extends WindowAdapter implements ActionListener, Mo
 	@Override
 	public void mouseClicked(MouseEvent me) {
 		if (me.getSource() == lv.getJlForgotPass()) {
-			
+			new FindPasswordView(lv);
 		}
 	}
 	@Override

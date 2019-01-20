@@ -61,7 +61,7 @@ public class LoginView extends JFrame {
 		jbLogin.addActionListener(lc);
 		jbSignUp.addActionListener(lc);
 		jlForgotPass.addMouseListener(lc);
-		addWindowFocusListener(lc);
+		addWindowListener(lc);
 		
 		setBounds(400, 300, 400, 280);
 		setResizable(false);
