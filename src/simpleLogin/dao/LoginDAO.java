@@ -240,7 +240,6 @@ public class LoginDAO {
 						rs.getString("dong"), rs.getString("bunji"));
 				list.add(avo);
 			}
-			System.out.println(avo);
 			
 		} finally {
 			if (rs != null) { rs.close(); }
@@ -250,10 +249,6 @@ public class LoginDAO {
 		
 		return list;
 	}
-	
-	/*public static void main(String[] args) throws SQLException {
-		System.out.println(LoginDAO.getInstance().selectId("test"));
-	}*/
 	
 	public List<UserInfoVO> selectAllUser() throws SQLException {
 		List<UserInfoVO> list = new ArrayList<UserInfoVO>();

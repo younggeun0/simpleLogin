@@ -210,11 +210,6 @@ public class SignUpController extends WindowAdapter implements ActionListener {
 			}
 		}
 		
-		if (e.getSource() == suv.getJcbQuestion()) { // 질문 콤보박스 선택 시
-			System.out.println(suv.getJcbQuestion().getSelectedItem().toString());
-			System.out.println(suv.getJcbQuestion().getSelectedIndex());
-		}
-		
 		if (e.getSource() == suv.getJbCancel()) {
 			suv.dispose();
 		}

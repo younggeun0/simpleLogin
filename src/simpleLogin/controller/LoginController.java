@@ -46,7 +46,6 @@ public class LoginController extends WindowAdapter implements ActionListener, Mo
 			
 			String id = lv.getJtfId().getText().trim();
 			String pass = new String(lv.getJpfPass().getPassword());
-			System.out.println(id+" "+pass);
 			
 			try {
 				if(LoginDAO.getInstance().login(new LoginVO(id, pass))) {
