@@ -17,7 +17,6 @@
 ![01](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/01.png?raw=true)
 
 * 회원가입 화면
-  * 수정예정(sing in이 뭐니..)
 
 ![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/02.png?raw=true) 
 
@@ -38,11 +37,12 @@
 ## DB 설계
 
 * 회원가입 시 아이디, 비밀번호, 연락처, 이메일, 주소, 주민등록번호. 검증용 질문답 입력 후 회원가입 수행
+  * 중복된 아이디인지 검증
   * 비밀번호 입력된 두 값이 같은지 검증
   * 이메일 @과 .가 입력되었는지 검증
   * 주소는 DB때 사용했던 지번정보를 저장한 Zipcode 테이블 사용
   * 주민등록번호는 DB때 배운 SSN검증 알고리즘 사용
-  * question은 1 또는 2로 저장
+  * 질문은 1 또는 2로 저장
 
 ```sql
 -- user 데이터를 저장할 simple_login 테이블
