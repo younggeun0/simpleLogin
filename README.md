@@ -63,19 +63,19 @@ CREATE TABLE simple_login(
 
 ## 구현 화면
 
-![08](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/08.jpg?raw=true)
+![08](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/08.png?raw=true)
 
-![09](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/09.jpg?raw=true)
+![09](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/09.png?raw=true)
 
-![10](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/10.jpg?raw=true)
+![10](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/10.png?raw=true)
 
-![11](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/11.jpg?raw=true)
+![11](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/11.png?raw=true)
 
-![12](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/12.jpg?raw=true)
+![12](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/12.png?raw=true)
 
-![13](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/13.jpg?raw=true)
+![13](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/13.png?raw=true)
 
-![14](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/14.jpg?raw=true)
+![14](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/14.png?raw=true)
 
-![15](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/15.jpg?raw=true)
+![15](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/simpleLogin/15.png?raw=true)
 
